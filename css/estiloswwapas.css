@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
+
+*{box-sizing: border-box;}
+
+body {  
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size: 90%;
+    color: #333;
+margin: 10px;
+background-color: #f2f2f2;}
+
+nav {
+
+    width: 100%;
+    border-top: 2px solid rgb(252, 238, 33)
+
+}
+
+ main {
+
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+h1,h2,h3,h4{color: black;}
+
+    nav{ display:flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 24px;
+    padding: 20px;}
+
+    nav a,
+footer a {
+    margin-left: 20px;
+    color: #7A7A7A;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+p { border: none;}
+
+    #principal{font-family: 'Coiny', cursive;
+    font-size: 56px;}
+
+    h1{ font-size: 64px}
+    h1, strong {font-weight: 700;}
+
+    h1 strong {font-family: 'Coiny', cursive;
+        font-size: 117px;
+        }
+
+    h2{font-size: 26px; 
+        font-weight: 400;
+    background-color: #fcee21;}
+
+    #intro{font-size: 32px;}
+
+    nav h1 {
+        margin-right: auto;
+    }
+
+h3{font-weight: 900;
+    background-color: #fcee21 ;
+    font-size: 34px;}
+
+    main{font-size: 38px;}
+
+        h4 {font-size: 38px;
+            font-weight: 700;}
+
+        ol{font-size: 28px;;
+        font-weight: 400;
+    list-style-position: inside;}
+    
+        #especial{font-weight: 700;
+            background-color: #fcee21;}
+    
+            h5{font-size: 38px;
+            font-weight: 700;
+        background-color: black;
+    color: white;
+    line-height: 100px;
+    padding: 10px;
+    margin: 0}
+    
+       #consulta{font-size: 33px;
+        font-weight: 700;
+    background-color: #fcee21;}
+
+    form{font-weight: 700;
+    color: black;
+font-size: 20px;}
+
+    form label span {color: red;}
+
+    .form_campo:focus {
+        background-color: #eee8aa;
+        color:black;
+    }
+
+    .form_campo{ display:inline-block;
+        font-weight: 400px;
+        height: 25px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;}
+
+    textarea{   display: block;
+        color:black ;
+        height: 60px;
+        width: 500px;}
+        
+textarea:focus {
+            background-color: #eee8aa;
+            color:black}
+
+    button {font-size: 32px;
+        color: white;
+        background-color: black;
+        font-weight: 700;}
+
+
+
+        #reset {font-size: 32px;
+            color: white;
+            background-color: black;
+            font-weight: 700;}
+
+            aside div p {size: 33px;
+            font-weight: 700;
+        color: #808080;}
+
+    footer{background-color: #fcee21;}
+    
+    footer h1{font-family: 'Coiny', cursive;
+    font-size: 33px;}
+
+    footer a{font-size: 21px;
+        font-weight: 400;
+        color: black;}
+
+        footer h1, a{display: inline-block}
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        footer,
+        main,
+        header,
+        aside {
+            width: 100%
+        }
+        
+        main {
+            font-size: 21px;
+        }
+
+        header img {
+            width: 70%;
+            margin-left: 30%;}
+
+            #redes div {
+                width: 8.33%;
+            }
+            
+            .contenedor img {
+                width: 50%;
+            }
+  
+            #links a:hover {
+                text-decoration: red;
+            
+            }
+            
+            
+            #redes img:hover {
+                filter: opacity(0.5);
+
+            }
+
+header.encolumnar,
+aside.encolumnar {
+    border-bottom: none;
+}
+
+.encolumnar {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom: 0.5px solid gray;
+}
+
+#redes img{
+    height: auto;
+    width: 30%;}
+
+ aside{   justify-items: center;}
+
+#imagen {
+    width: 30%;
+    height: 10%;
+    display: block;
+    margin: auto;
+}
+
+.item {
+    font-size: 24px;
+    font-weight: bold;
+}
